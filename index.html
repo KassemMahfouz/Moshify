@@ -8,27 +8,39 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font-family: 'Montserrat', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <div class="media">
-      <div class="media__image">
-        <svg class="icon icon--primary">
-          <use xlink:href="images/sprite.svg#snap"></use>
-        </svg>
-      </div>
-      <div class="media__body">
-        <h3 class="media__title">Easy Start & Managed Updates</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nobis
-          esse qui beatae ratione consectetur tempora modi possimus quaerat
-          voluptate!
-        </p>
-      </div>
-    </div>
+    <blockquote class="quote">
+      <p class="quote__text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+        magnam sequi, harum facilis aliquam vel laboriosam sed ab suscipit
+        voluptates!
+      </p>
+      <footer>
+        <div class="media">
+          <div class="media__image">
+            <svg class="icon icon--primary quote__line">
+              <use xlink:href="images/sprite.svg#line"></use>
+            </svg>
+          </div>
+          <div class="media__body">
+            <h3 class="media__title quote__author">Johne Lumeo</h3>
+            <p class="quote__company">Mosh Company ceo</p>
+          </div>
+        </div>
+      </footer>
+    </blockquote>
   </body>
 </html>
