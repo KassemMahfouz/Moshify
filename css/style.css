@@ -826,31 +826,18 @@ color: #fff;
 
 /* Features block */
 
-.feature__content {
-    padding: 2rem;
-}
-.feature__content .media {
-    display: block;
-    max-width: 100%;
+.feature {
+    margin-top: 4rem;
+    gap: 4rem 2rem;
 }
 
-.feature__content .media__body{
-    margin-top: 2rem;
-    padding: 0;
+.feature__heading {
+    margin: 1rem 0;
 }
 
 .feature__image {
-    margin-top: 2rem;
     width: 100%;
 }
-
-@media screen and (max-width: 768px) {
-    .feature .grid--1x2 {
-        display: block;
-    }
-
-}
-
 
 
 
