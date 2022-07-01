@@ -23,6 +23,7 @@
 html{
     /* 62.5% of 16px = 10px */
     font-size: 62.5%;
+    max-width:100vw;
 }
 
 .container {
@@ -224,7 +225,7 @@ color: #fff;
     font-size: 1.8rem;
     font-weight: 600;
     margin: 1rem 0;
-    padding: 1.5rem 3rem;
+    padding: 1.5rem 4vw;
     text-align: center;
     text-transform: uppercase;
     white-space: nowrap;
@@ -315,6 +316,7 @@ color: #fff;
     border: 0;
     flex-grow: 1;
     padding: 1.5rem 2rem;
+    width: 0;
 }
 
 .input-group .btn {
@@ -594,6 +596,8 @@ color: #fff;
 .callout {
     border-radius: 5px;
     padding: 4rem;
+    margin: 0 auto;
+    max-width: 1000px;
 }
 
 .callout--primary {
@@ -777,7 +781,7 @@ color: #fff;
 .hero__tagline {
     font-size: 2rem;
     color: #b9c3cf;
-    letter-spacing: 1;
+    letter-spacing: 1px;
     margin-top: 2rem;
     margin-bottom: 5rem;
 }
@@ -813,17 +817,19 @@ color: #fff;
     display: grid;
     font-size: 2rem;
     font-weight: 600;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 6rem);
     justify-items: center;
     max-width: 700px;
     margin: 0 auto;
+    color: var(--color-headings);
 }
 
 @media screen and (min-width: 768px){
     .block--domain__prices{
         grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     }
+
 }
 
 /* Plans block */
@@ -836,6 +842,8 @@ color: #fff;
     max-width: 500px;
     margin: 0 auto;
 }
+
+
 
 /* Features block */
 
@@ -851,7 +859,7 @@ color: #fff;
 .feature__image {
     width: 100%;
 }
-
+ 
 /* Showcase block */
 
 .block-showcase__image > img {
