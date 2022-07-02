@@ -609,6 +609,7 @@ color: #fff;
     color: #fff;
     font-size: 3rem;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 .callout .btn {
@@ -618,6 +619,10 @@ color: #fff;
 
 .callout__content {
     text-align: center;
+}
+
+.callout .callout--text {
+    margin-top: 2rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -886,6 +891,7 @@ color: #fff;
 
 .footer {
     background: #232323;
+    font-size: 1.5rem;
 }
 
 .footer a {
@@ -933,6 +939,9 @@ color: #fff;
     max-width: 230px;
 }
 
+.footer .collapsible__content li {
+    margin-bottom: 0.8rem;
+}
 @media screen and (min-width: 768px) {
     .footer__sections {
         grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
